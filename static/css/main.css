@@ -1,0 +1,36 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+}
+
+.sidebar{
+    flex: 0.2;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    flex: 0.8;
+}
+
+.sidebar_nav{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
