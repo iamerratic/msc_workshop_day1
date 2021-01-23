@@ -34,3 +34,42 @@ body{
     font-size: 20px;
     cursor: pointer;
 }
+
+.header{
+    height: 80px;
+    background-color: lavender;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: 80%;
+    z-index: -10;
+}
+
+.nav_links{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+}
+
+.nav_links > li{
+    list-style-type: none;
+    margin: 0px 30px;
+}
+
+.main_content{
+    height: 100%;
+    display: flex;
+}
+
+.image{
+    flex: 0.6;
+    background-image: url('../images/keshav.jpeg');
+    background-position: -250px 0px;
+    background-repeat: no-repeat;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.content{
+    flex: 0.4;
+}
