@@ -72,4 +72,7 @@ body{
 
 .content{
     flex: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
